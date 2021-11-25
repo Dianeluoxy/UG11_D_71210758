@@ -32,68 +32,68 @@ def cekHasil():
 	if c_pick == "<" and tipe.lower() == "pengurangan":
 		if ((a-b)<(c-d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 	elif c_pick == "<" and tipe.lower() == "penjumlahan":
 		if ((a+b)<(c+d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")		
+				print("Jawaban Anda Masih Salah !")		
 	elif c_pick == ">" and tipe.lower() == "pengurangan":
 		if ((a-b)>(c-d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 	elif c_pick == ">" and tipe.lower() == "penjumlahan":
 		if ((a+b)>(c+d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
 				print("Jawaban Anda Masih Salah!")	
 	elif c_pick == "==" and tipe.lower() == "pengurangan":	
 		if ((a-b)==(c-d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 	elif c_pick == "==" and tipe.lower() == "penjumlahan":
 		if ((a+b)==(c+d)) == True:
 			if jawaban.lower() == "benar":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")	
+				print("Jawaban Anda Masih Salah !")	
 		else: 
 			if jawaban.lower() =="salah":
-				print("Jawaban Anda Benar!")
+				print("Jawaban Anda Benar !")
 			else:
-				print("Jawaban Anda Masih Salah!")
+				print("Jawaban Anda Masih Salah !")
 
 cekHasil()
